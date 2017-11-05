@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#about">Learn More</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<section id="about">
+  <h1>About Us</h1>
+</section>
+<section id="events">
+  <h1>Events</h1>
+  <div class="image-grid">
+    
+  </div>
+</section>
+<section id="volunteer" class="section scrollspy">
+  <div class="container">
+    <h1>Volunteer</h1>
+    <div class="row">
+      <div class="col s6">
+        <p>We are looking for volunteers to help us with the funnest event on the Outer Banks.</p>
+      </div>
+      <div class="col s6">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="tel" type="tel" class="validate">
+            <label for="first_name">Phone Number</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="email" type="email" class="validate">
+            <label for="last_name">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <select>
+              <option value="" disabled selected>Select Your First Option</option>
+              <option value="1">Dance Instructor</option>
+              <option value="2">Ticket</option>
+              <option value="3">Security</option>
+            </select>
+          </div>
+          <div class="input-field col s6">
+            <select>
+              <option value="" disabled selected>Select Your Second Option</option>
+              <option value="1">Dance Instructor</option>
+              <option value="2">Ticket</option>
+              <option value="3">Security</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <script> 
+        $(document).ready(function() {
+          $('select').material_select();
+          $('.scrollspy').scrollSpy();
+        });
+      </script>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col s4">
+        <h4>Location</h4>
+        <address></address>
+      </div>
+      <div class="col s4">
+        <h4>Connect with us on Social Media</h4>
+      </div>
+      <div class="col s4 donate-footer">
+        <h4>Help by Donating</h4>
+        <a class="waves-effect waves-light btn-large">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

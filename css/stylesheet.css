@@ -1,0 +1,46 @@
+/* GENERAL */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-align: center;
+}
+
+
+/* ABOUT */
+
+
+
+/* EVENTS */
+
+
+
+/* IMAGE GRID */
+
+
+/* FOOTER */
+
+footer {
+  border-top: 4px solid #DCDCDC;
+  padding-top: 20px;
+}
+
+.donate-footer { 
+  text-align: center;
+}
+
+.donate-footer .btn-large {
+  background-color: #9999FF;
+}
+
+
+
+
+/* MEDIA QUERIES*/
