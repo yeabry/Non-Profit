@@ -1,4 +1,4 @@
-/* GENERAL */
+ GENERAL */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -13,14 +13,50 @@ h4 {
   text-align: center;
 }
 
+/* Header */
+
+header h1 {
+  margin-bottom: 2px;
+}
+
+.header-date {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
 
 /* ABOUT */
 
+#about {
+  background-color: #d1edd3;
+}
+
+#about p {
+  margin-bottom: 0px;
+}
 
 
 /* EVENTS */
 
+#events {
+  background-color: #edd3d1;
+}
 
+#events h1 {
+  margin-top: 0px;
+}
+
+#events p {
+  margin-bottom: 0px;
+}
+
+/* Volunteer */
+
+#volunteer {
+  background-color: #d1ebed;
+}
 
 /* IMAGE GRID */
 
@@ -43,4 +79,4 @@ footer {
 
 
 
-/* MEDIA QUERIES*/
+/* MEDIA QUERIES
